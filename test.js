@@ -42,6 +42,7 @@ app.use(bodyHospital.json())
 };
 
 
+
 	// Retrieve all Users
   app.get('/api/users', findAll);
 
@@ -62,6 +63,4 @@ app.use(bodyHospital.json())
   var host = server.address().address
   var port = server.address().port
 
-  console.log("App listening at http://%s:%s", host, port)
-
-})
+  console.log("App listening at http://%s:%s", host, port)})
